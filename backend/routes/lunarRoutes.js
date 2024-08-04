@@ -2,7 +2,7 @@ import express from "express";
 import axios from "axios";
 
 const router = express.Router();
-const apiKey = kydYKrYv0qesDGeRZJgSsSpzoJnqbPYcjoEVENgG;
+const apiKey = demo_api_key;
 
 router.get('/phases', async (req, res) => {
     const {date} = req.query;
